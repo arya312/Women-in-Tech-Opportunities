@@ -6,10 +6,11 @@ const Credits = () => {
     <>
       <CreditWrapper>
         <CreditP>
-          Designed and Developed by <span><a href="https://www.linkedin.com/in/saujanyasood
-" style={{textDecoration:"none", color: "#D7F8FF"}}>Saujanya Sood</a>.</span>
+          Designed and Developed by <span><a href="https://www.linkedin.com/in/arya-pandey-5340651b8/
+" style={{textDecoration:"none", color: "#D7F8FF"}}>Arya Pandey</a></span> and <span><a href="https://www.linkedin.com/in/atmikamishra/
+" style={{textDecoration:"none", color: "#D7F8FF"}}>Atmika Mishra</a>.</span>
           <br />
-          ©2022 IEEE – All rights reserved.
+          ©2022 WITO – All rights reserved.
         </CreditP>
       </CreditWrapper>
     </>

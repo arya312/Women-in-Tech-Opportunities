@@ -19,10 +19,10 @@ const Navbar = ({toggle}) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="events"><h3>Events</h3></NavLinks>
+              <NavLinks to="events"><h3>Opportunities</h3></NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="timeline"><h3>Timeline</h3></NavLinks>
+              <NavLinks to="timeline"><h3>Dates</h3></NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="contact"><h3>Contact Us</h3></NavLinks>

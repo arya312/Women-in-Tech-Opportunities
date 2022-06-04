@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  background: #000000;
+  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@ export const VideoBg = styled.video`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: black;
+  background: white;
 `;
 
 export const HeroContent = styled.div`
@@ -50,7 +50,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroP = styled.p`
-  color: #fafafd;
+  color: white;
   font-size: 50px;
   text-align: center;
   max-width: 600px;
@@ -65,7 +65,7 @@ export const HeroP = styled.p`
 `;
 
 export const HeroH1 = styled.h1`
-  color: #fafafd;
+  color: white;
   font-size: 110px;
   text-align: center;
 

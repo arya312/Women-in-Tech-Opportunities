@@ -11,19 +11,19 @@ const Timeline = () => {
   return (
     <div className="timeline">
       <div className="heading">
-        <h1>Timeline</h1>
+        <h1>Dates</h1>
       </div>
       <VerticalTimeline>
         {data.map((game) => {
           return (
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#000" }}
-              contentArrowStyle={{ borderRight: "7px solid white)" }}
+              contentStyle={{ background: "pink", color: "#000" }}
+              contentArrowStyle={{ borderRight: "10px solid pink)" }}
               date={game.date}
               dateClassName="dateStyle"
               iconStyle={{
-                background: "black",
+                background: "pink",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
@@ -41,7 +41,7 @@ const Timeline = () => {
             >
               <h2
                 className="vertical-timeline-element-title"
-                style={{ marginBottom: "8px" }}
+                style={{ marginBottom: "8px", marginTop: "8px" }}
               >
                 {game.heading}
               </h2>

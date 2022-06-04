@@ -19,7 +19,7 @@ const Events = () => {
       style={{ display: "flex", alignItems: "center", flexDirection: "column" }}
     >
       <Heading>
-        <h1>Events</h1>
+        <h1>Opportunities</h1>
       </Heading>
       <EventsContainer>
         {events.map((e) => {

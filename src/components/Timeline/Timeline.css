@@ -1,5 +1,6 @@
 .timeline {
   top: 80px;
+  margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -11,25 +12,26 @@
   justify-content: center;
   font-size: 24px;
   font-weight: 400;
-  color: #fafafd;
+  color: #000000;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .dateStyle {
-  color: white;
-  opacity: 1;
-  z-index: 200;
+  color: rgb(201, 0, 0);
+  opacity: 100;
+  z-index: 400;
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date.vertical-timeline-element-content .vertical-timeline-element-date{
-  color: white;
+  color: rgb(0, 0, 0);
   opacity: 1;
-  z-index: 200;
+  z-index: 00;
   font-size: 40px;
 }
 
 @media screen and (max-width: 1000px) {
   .dateStyle {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 }

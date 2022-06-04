@@ -6,7 +6,7 @@ export const CreditWrapper = styled.div`
     align-items: center;
     justify-content: center;
     color: white;
-    background: black;
+    background: #FF8C8C;
     padding-bottom: 10px;
 `
 

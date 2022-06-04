@@ -6,7 +6,7 @@ export const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: black;
+    background-color: #FF8C8C;
     border-top: 5px solid #fafafd;
 
     @media screen and (max-width: 1000px){
@@ -93,6 +93,7 @@ export const ContactContainer = styled.div`
 export const ContactName = styled.h2`
     font-size: 22px;
     font-weight: 600;
+    color: white;
 `
 
 export const ContactNumber = styled.a`

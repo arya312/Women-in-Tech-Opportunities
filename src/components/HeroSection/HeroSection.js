@@ -27,14 +27,14 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
           <HeroP>Welcome to</HeroP>
-          <HeroH1>Matrix'22</HeroH1>
-          <BtnWrapper href="https://discord.gg/dfJMFGwsXQ" target="_blank">
+          <HeroH1>WITO</HeroH1>
+          <BtnWrapper>
             <Button
               variant="contained"
               sx={{
                 fontFamily: "'Montserrat', sans serif",
                 fontWeight: "600",
-                background: "#fafafd",
+                background: "#FF8C8C",
                 color: "#020910",
                 borderRadius: "10px",
                 fontSize: "15px",
@@ -43,8 +43,8 @@ const HeroSection = () => {
                 "&:hover": { background: "white" },
               }}
             >
-              <Icon src={discord}/>
-              Join our Discord Server
+              {/* <Icon src={discord}/> */}
+              Scroll Down
             </Button>
           </BtnWrapper>
         </HeroContent>

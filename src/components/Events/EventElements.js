@@ -9,7 +9,7 @@ export const Heading = styled.div`
     padding-top: 30px;
     font-size: 24px;
     font-weight: 400;
-    color: #FAFAFD;
+    color: black;
 `
 
 export const EventsContainer = styled.div`

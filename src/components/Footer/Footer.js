@@ -31,8 +31,9 @@ const Footer = () => {
     <div className="contact">
       <FooterContainer>
         <FooterFirst>
-          <Logo1 src={logo}></Logo1>
-          <Logo2 src={matrix}></Logo2>
+          {/* <Logo1 src={logo}></Logo1> */}
+          {/* <Logo2 src={matrix}></Logo2> */}
+          <ContactName>WITO</ContactName>
         </FooterFirst>
         <FooterSecond>
           <Contacts>
@@ -41,7 +42,7 @@ const Footer = () => {
                 <ContactBlock>
                   <ContactContainer>
                     <ContactName>{c.name}</ContactName>
-                    <ContactNumber href={c.link}>{c.number}</ContactNumber>
+                    {/* <ContactNumber href={c.link}>{c.number}</ContactNumber> */}
                   </ContactContainer>
                   <IconContainer href={c.linkedin} target="_blank">
                     <Icon src={linkedin} />
@@ -63,7 +64,7 @@ const Footer = () => {
               );
             })}
           </LinksWrapper>
-          <BtnWrapper href="https://bit.ly/join_ieeedtu" target="_blank">
+          <BtnWrapper href="https://www.instagram.com/aryaxpandey/" target="_blank">
             <Button
               variant="contained"
               sx={{
@@ -75,7 +76,7 @@ const Footer = () => {
                 "&:hover": { background: "white" },
               }}
             >
-              Join IEEE DTU
+             Follow WITO
             </Button>
           </BtnWrapper>
         </FooterThird>
