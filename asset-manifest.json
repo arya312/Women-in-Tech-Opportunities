@@ -1,31 +1,21 @@
 {
   "files": {
-    "main.css": "/Women-in-Tech-Opportunities/static/css/main.354b78c5.css",
-    "main.js": "/Women-in-Tech-Opportunities/static/js/main.722a333d.js",
+    "main.css": "/Women-in-Tech-Opportunities/static/css/main.9ce722d9.css",
+    "main.js": "/Women-in-Tech-Opportunities/static/js/main.57a395b5.js",
     "static/media/finalVideo.mp4": "/Women-in-Tech-Opportunities/static/media/finalVideo.d60ac7a7e96abbcae66a.mp4",
-    "static/media/marvel.jpeg": "/Women-in-Tech-Opportunities/static/media/marvel.79ccfd9f3d8cb1c9988a.jpeg",
-    "static/media/naruto.jpeg": "/Women-in-Tech-Opportunities/static/media/naruto.2bbf2f87940ceea81b64.jpeg",
-    "static/media/smashkarts.jpeg": "/Women-in-Tech-Opportunities/static/media/smashkarts.e4fc221410a10df059cb.jpeg",
-    "static/media/stumble.jpeg": "/Women-in-Tech-Opportunities/static/media/stumble.a1c016e13a76e5cb26b3.jpeg",
-    "static/media/memecomp.jpeg": "/Women-in-Tech-Opportunities/static/media/memecomp.37a1d4f603fc17695c3e.jpeg",
-    "static/media/antichess.jpeg": "/Women-in-Tech-Opportunities/static/media/antichess.ebc6cc924882a0c79c44.jpeg",
     "static/media/marvel.png": "/Women-in-Tech-Opportunities/static/media/marvel.011d7e03e10d3fabddb0.png",
-    "static/media/anime.png": "/Women-in-Tech-Opportunities/static/media/anime.f9ec7c671893c2022dcb.png",
-    "static/media/smash.png": "/Women-in-Tech-Opportunities/static/media/smash.9d3af10420928b585cc0.png",
-    "static/media/stumble.png": "/Women-in-Tech-Opportunities/static/media/stumble.b65515f2c16d7d376296.png",
-    "static/media/chess.png": "/Women-in-Tech-Opportunities/static/media/chess.99d29e894da802331ad9.png",
+    "static/media/astra.jpg": "/Women-in-Tech-Opportunities/static/media/astra.047bf785d9140868540a.jpg",
     "static/media/instagramoutlined.png": "/Women-in-Tech-Opportunities/static/media/instagramoutlined.62cbc195d69a80a4a542.png",
-    "static/media/meme.png": "/Women-in-Tech-Opportunities/static/media/meme.e74a4f294cb8dffe91df.png",
+    "static/media/wcode.png": "/Women-in-Tech-Opportunities/static/media/wcode.e43b17e6adeefab25b65.png",
+    "static/media/codeglad.png": "/Women-in-Tech-Opportunities/static/media/codeglad.7d0132a275202526169c.png",
     "static/media/linkedinfilled.png": "/Women-in-Tech-Opportunities/static/media/linkedinfilled.29e6db65c721761d12dd.png",
     "static/media/linkedinlogo.png": "/Women-in-Tech-Opportunities/static/media/linkedinlogo.29e6db65c721761d12dd.png",
-    "static/media/facebookfilled.png": "/Women-in-Tech-Opportunities/static/media/facebookfilled.424266b796f1b8bb874d.png",
-    "static/media/discord.png": "/Women-in-Tech-Opportunities/static/media/discord.f1174c8cea4794e64dd0.png",
     "index.html": "/Women-in-Tech-Opportunities/index.html",
-    "main.354b78c5.css.map": "/Women-in-Tech-Opportunities/static/css/main.354b78c5.css.map",
-    "main.722a333d.js.map": "/Women-in-Tech-Opportunities/static/js/main.722a333d.js.map"
+    "main.9ce722d9.css.map": "/Women-in-Tech-Opportunities/static/css/main.9ce722d9.css.map",
+    "main.57a395b5.js.map": "/Women-in-Tech-Opportunities/static/js/main.57a395b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.354b78c5.css",
-    "static/js/main.722a333d.js"
+    "static/css/main.9ce722d9.css",
+    "static/js/main.57a395b5.js"
   ]
 }
