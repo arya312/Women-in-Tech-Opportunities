@@ -3,13 +3,10 @@ import {
   FooterContainer,
   FooterFirst,
   FooterSecond,
-  Logo1,
-  Logo2,
   Contacts,
   ContactBlock,
   ContactContainer,
   ContactName,
-  ContactNumber,
   IconContainer,
   Icon,
   FooterThird,
@@ -20,8 +17,6 @@ import {
   IconImg,
   BtnWrapper,
 } from "./FooterElements";
-import logo from "./logo.png";
-import matrix from "./matrix.png";
 import linkedin from "./linkedinlogo.png";
 import { data, socials } from "./FooterData";
 import Button from "@mui/material/Button";
@@ -31,8 +26,6 @@ const Footer = () => {
     <div className="contact">
       <FooterContainer>
         <FooterFirst>
-          {/* <Logo1 src={logo}></Logo1> */}
-          {/* <Logo2 src={matrix}></Logo2> */}
           <ContactName>WITO</ContactName>
         </FooterFirst>
         <FooterSecond>
@@ -42,7 +35,6 @@ const Footer = () => {
                 <ContactBlock>
                   <ContactContainer>
                     <ContactName>{c.name}</ContactName>
-                    {/* <ContactNumber href={c.link}>{c.number}</ContactNumber> */}
                   </ContactContainer>
                   <IconContainer href={c.linkedin} target="_blank">
                     <Icon src={linkedin} />

@@ -36,10 +36,10 @@ const Events = () => {
                       variant="contained"
                       sx={{
                         fontFamily: "'Montserrat', sans serif",
-                        background: "rgb(0, 0, 0)",
-                        color: "white",
+                        background: "pink",
+                        color: "black",
                         borderRadius: "10px",
-                        "&:hover": { background: "rgb(0, 0, 0)" },
+                        "&:hover": { background: "pink" }
                       }}
                     >
                       Register

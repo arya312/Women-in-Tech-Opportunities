@@ -19,11 +19,11 @@ const Sidebar = ({ toggle, isOpen }) => {
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to="events" onClick={toggle}>Events</SidebarLink>
-            <SidebarLink to="timeline" onClick={toggle}>Timeline</SidebarLink>
+            <SidebarLink to="events" onClick={toggle}>Opportunities</SidebarLink>
+            <SidebarLink to="timeline" onClick={toggle}>Dates</SidebarLink>
             <SidebarLink to="contact" onClick={toggle}>Contact Us</SidebarLink>
           </SidebarMenu>
-          <BtnWrapper href="https://bit.ly/join_ieeedtu" target="_blank">
+          <BtnWrapper href="https://www.instagram.com/aryaxpandey/" target="_blank">
             <Button
               variant="contained"
               sx={{
@@ -37,7 +37,7 @@ const Sidebar = ({ toggle, isOpen }) => {
                 "&:hover": { background: "white" },
               }}
             >
-              Join IEEE DTU
+              Join WITO
             </Button>
           </BtnWrapper>
         </SidebarWrapper>

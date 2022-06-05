@@ -1,46 +1,41 @@
-import smashkarts from "./images/smash.png";
-import stumbleguys from "./images/stumble.png";
-import chess from "./images/chess.png";
 import marvel from "./images/marvel.png";
-import meme from "./images/meme.png";
-import anime from "./images/anime.png";
 
 export const data = [
   {
-    heading: "Sigma Rules",
-    description: "Show us your Meme Talent!",
-    img: meme,
-    date: "8th Jan, 10am - 9th Jan, 11:59pm",
-  },
-  {
-    heading: "Rival your Way!",
-    description: "A SmashKarts Tournament",
-    img: smashkarts,
-    date: "8th Jan, 6pm Onwards",
-  },
-  {
-    heading: "AntiChess",
-    description: "A Twist to the Game of Chess",
-    img: chess,
-    date: "8th Jan, 7pm Onwards",
-  },
-  {
-    heading: "Knockout Sesh",
-    description: "A StumbleGuys Tournament",
-    img: stumbleguys,
-    date: "8th Jan, 8pm Onwards",
-  },
-  {
-    heading: "Freshers, Assemble!",
-    description: "Let's check your Marvel Trivia!",
+    heading: "Flipkart Grid 4.O",
+    description: "Flipkart's Flagship Engineering Campus Challenge!",
     img: marvel,
-    date: "9th Jan, 5pm Onwards",
+    date: "03 Jun 22, 07:00 PM IST - 10 Aug 22, 08:00 PM IST",
+  },
+  {
+    heading: "Nutanix Scholarship",
+    description: "Nutanix heart Advancing Women in Technology Scholarship for education of women students",
+    img: marvel,
+    date: "Till May 13, 2022",
+  },
+  {
+    heading: "Azure Women's Hackathon",
+    description: "National Level Women hackathon by Microsoft to encourage women developers to kick start their development journey",
+    img: marvel,
+    date: "April 6th, 2022 6:00 PM IST - June 6th, 2022 23:55 PM IST",
+  },
+  {
+    heading: "wCode Clan 3.0",
+    description: "To bring future women innovators from interdisciplinary backgrounds to build inventive yet practical solutions",
+    img: marvel,
+    date: "Till May 15, 2022",
+  },
+  {
+    heading: "ASTRA DB'S Build-A-Thon",
+    description: "3-month long hackathon using Astra DB as backend",
+    img: marvel,
+    date: "Till May 20, 2022",
   },
 
   {
-    heading: "MangaPhile",
-    description: "Show off your hours of watching Naruto!",
-    img: anime,
-    date: "9th Jan, 6pm Onwards",
+    heading: "Code Gladiators'22",
+    description: "An annual coding competition by TechGig",
+    img: marvel,
+    date: "22nd Mar — 29th Jul, 2022",
   },
 ];

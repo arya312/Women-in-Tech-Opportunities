@@ -24,10 +24,13 @@
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date.vertical-timeline-element-content .vertical-timeline-element-date{
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   opacity: 1;
   z-index: 00;
   font-size: 40px;
+}
+.vertical-timeline-element-subtitle {
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {

@@ -11,12 +11,10 @@ import {
   BtnPath1,
   BtnPath2,
   BtnPath3,
-  Icon
 } from "./HeroElements";
 import video from "./finalVideo.mp4";
 import { BtnWrapper } from "../Footer/FooterElements";
 import { Button } from "@mui/material";
-import discord from "./discord.png"
 
 const HeroSection = () => {
   return (
@@ -29,7 +27,7 @@ const HeroSection = () => {
           <HeroP>Welcome to</HeroP>
           <HeroH1>WITO</HeroH1>
           <BtnWrapper>
-            <Button
+            {/* <Button
               variant="contained"
               sx={{
                 fontFamily: "'Montserrat', sans serif",
@@ -43,9 +41,8 @@ const HeroSection = () => {
                 "&:hover": { background: "white" },
               }}
             >
-              {/* <Icon src={discord}/> */}
               Scroll Down
-            </Button>
+            </Button> */}
           </BtnWrapper>
         </HeroContent>
         <HeroBtnWrapper to="events">

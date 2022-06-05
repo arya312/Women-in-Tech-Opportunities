@@ -18,15 +18,15 @@ const Timeline = () => {
           return (
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
-              contentStyle={{ background: "pink", color: "#000" }}
-              contentArrowStyle={{ borderRight: "10px solid pink)" }}
+              contentStyle={{ background: "pink", color: "#000"}}
+              contentArrowStyle={{ borderRight: "20px solid pink)" }}
               date={game.date}
               dateClassName="dateStyle"
               iconStyle={{
                 background: "pink",
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "center",
+                justifyContent: "center"
               }}
               icon={
                 <img
@@ -41,16 +41,13 @@ const Timeline = () => {
             >
               <h2
                 className="vertical-timeline-element-title"
-                style={{ marginBottom: "8px", marginTop: "8px" }}
+                style={{ marginBottom: "8px", marginTop: "8px", borderRadius: "20px 20px 0 0"}}
               >
                 {game.heading}
               </h2>
               <h4 className="vertical-timeline-element-subtitle">
                 {game.description}
               </h4>
-              {/* <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus id orci non hendrerit. Fusce eget felis ac nisi finibus.
-          </p> */}
             </VerticalTimelineElement>
           );
         })}

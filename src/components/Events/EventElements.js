@@ -23,7 +23,7 @@ export const EventsContainer = styled.div`
 `
 
 export const CardContainer = styled.div`
-    height: 350px;
+    height: 300px;
     width: 300px;
     margin: 20px;
     border-radius: 20px;
@@ -41,15 +41,15 @@ export const GameCard = styled(Card)`
 `
 
 export const GameCardMedia = styled(CardMedia)`
-    height: 60%;
-    width: 100%;
+    height: 40%;
+    width: 50%;
     border-radius: 20px 20px 0 0 ;
 `
 
 export const GameCardContent = styled(CardContent)`
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
-    font-family: 'Keania One', cursive;
+    font-family: 'Times New Roman', cursive, solid, bold;
 `
 
 export const GameCardActions = styled(CardActions)`
